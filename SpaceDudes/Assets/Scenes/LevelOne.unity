@@ -8110,6 +8110,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 10.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7040032624766790764, guid: 81cec08c9e014c64fba3cab3d1afd37f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040032624766790764, guid: 81cec08c9e014c64fba3cab3d1afd37f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81cec08c9e014c64fba3cab3d1afd37f, type: 3}
 --- !u!4 &1104798436 stripped
@@ -16283,6 +16293,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player ONE
       objectReference: {fileID: 0}
+    - target: {fileID: 7274147689033663895, guid: 35bc9fe14de8e7d46976362a3d9e347c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7040032624651737317, guid: 35bc9fe14de8e7d46976362a3d9e347c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16383,10 +16398,5 @@ PrefabInstance:
       propertyPath: aimingUpFirePoint
       value: 
       objectReference: {fileID: 135571230}
-    - target: {fileID: 7274147689033663895, guid: 35bc9fe14de8e7d46976362a3d9e347c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35bc9fe14de8e7d46976362a3d9e347c, type: 3}

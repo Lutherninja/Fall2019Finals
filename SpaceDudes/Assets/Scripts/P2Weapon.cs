@@ -45,7 +45,7 @@ public class P2Weapon : MonoBehaviour
         }
     }
 
-    void Shoot()
+     void Shoot()
     {
         // shooting logic
         if (isCrouching)

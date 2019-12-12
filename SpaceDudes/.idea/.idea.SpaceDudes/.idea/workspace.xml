@@ -50,8 +50,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/scenemanagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DelayedDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/P2Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/P2Weapon.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +113,7 @@
       <workItem from="1575928208966" duration="23010000" />
       <workItem from="1576032593509" duration="596000" />
       <workItem from="1576080851940" duration="1149000" />
-      <workItem from="1576175465632" duration="338000" />
+      <workItem from="1576175465632" duration="2301000" />
     </task>
     <servers />
   </component>
