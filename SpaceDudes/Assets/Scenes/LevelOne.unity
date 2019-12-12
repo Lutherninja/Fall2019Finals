@@ -6251,7 +6251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d75aa25b29931c444ba4fa5ab346c32b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMusic: {fileID: 8300000, guid: a5149b79222ccfe428dcc436ada24199, type: 3}
+  mainMusic: {fileID: 891216408}
 --- !u!4 &891216410
 Transform:
   m_ObjectHideFlags: 0
@@ -7964,6 +7964,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerTWO
       objectReference: {fileID: 0}
+    - target: {fileID: 1541068525934768338, guid: 81cec08c9e014c64fba3cab3d1afd37f,
+        type: 3}
+      propertyPath: horizontalMove
+      value: -40
+      objectReference: {fileID: 0}
     - target: {fileID: 7040032624651737317, guid: 81cec08c9e014c64fba3cab3d1afd37f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8088,6 +8093,16 @@ PrefabInstance:
         type: 3}
       propertyPath: Landing.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461430718943663979, guid: 81cec08c9e014c64fba3cab3d1afd37f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 36.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461430718943663979, guid: 81cec08c9e014c64fba3cab3d1afd37f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81cec08c9e014c64fba3cab3d1afd37f, type: 3}

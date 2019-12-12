@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P1Wins.unity
     guid: 29c24ef9cfd11a145986099ec9804390
+  - enabled: 1
+    path: Assets/Scenes/P2Wins.unity
+    guid: 9b82e66d63a622047a7c51ed8d34199c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 801eb94de0ba0934e85a2c5bb6db68ad
   m_configObjects: {}

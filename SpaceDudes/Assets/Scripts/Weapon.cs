@@ -7,8 +7,10 @@ public class Weapon : MonoBehaviour
 
     public Transform firePoint;
     public Transform crouchingFirepoint;
+    public Transform aimingUpFirePoint;
     public GameObject bulletPrefab;
     public bool  isCrouching;
+    public bool isAimingUp;
     public AudioSource pewpew;
 
 
@@ -30,6 +32,16 @@ public class Weapon : MonoBehaviour
         {
             isCrouching = false;
         }
+
+        if (Input.GetButtonDown("P1Up"))
+        {
+            isAimingUp = true;
+        }
+
+        if (Input.GetButtonUp("P1Up"))
+        {
+            isAimingUp = false;
+        }
     }
 
     void Shoot()
@@ -39,6 +51,10 @@ public class Weapon : MonoBehaviour
         {
             Instantiate(bulletPrefab, crouchingFirepoint.position, crouchingFirepoint.rotation);
             
+        }
+        else if (isAimingUp)
+        {
+            Instantiate(bulletPrefab, aimingUpFirePoint.position, aimingUpFirePoint.rotation);
         }
         else
         {

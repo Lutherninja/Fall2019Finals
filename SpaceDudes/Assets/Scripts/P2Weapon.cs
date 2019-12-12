@@ -7,8 +7,10 @@ public class P2Weapon : MonoBehaviour
 
     public Transform firePoint;
     public Transform crouchingFirepoint;
+    public Transform aimingUpFirepoint;
     public GameObject bulletPrefab;
     public bool  isCrouching;
+    public bool isAimingUp;
     public AudioSource pew;
 
 
@@ -30,6 +32,17 @@ public class P2Weapon : MonoBehaviour
         {
             isCrouching = false;
         }
+
+        if (Input.GetButtonDown("P2Up"))
+        {
+            isAimingUp = true;
+            print("isaimingup dummy");
+        }
+
+        if (Input.GetButtonUp("P2Up"))
+        {
+            isAimingUp = false;
+        }
     }
 
     void Shoot()
@@ -39,6 +52,10 @@ public class P2Weapon : MonoBehaviour
         {
             Instantiate(bulletPrefab, crouchingFirepoint.position, crouchingFirepoint.rotation);
             
+        }
+        else if (isAimingUp)
+        {
+            Instantiate(bulletPrefab, aimingUpFirepoint.position, aimingUpFirepoint.rotation);
         }
         else
         {

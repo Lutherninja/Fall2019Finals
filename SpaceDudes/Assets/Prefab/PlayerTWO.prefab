@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1607312275840287525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4461430718943663979}
+  m_Layer: 8
+  m_Name: AimingUpFirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4461430718943663979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607312275840287525}
+  m_LocalRotation: {x: 0, y: 0, z: 0.30070576, w: 0.953717}
+  m_LocalPosition: {x: 10.3, y: 6.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7040032624651737317}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35}
 --- !u!1 &7040032623956043275
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,6 +162,7 @@ Transform:
   - {fileID: 7040032625188814522}
   - {fileID: 7040032624766790764}
   - {fileID: 7040032625100691475}
+  - {fileID: 4461430718943663979}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -230,9 +261,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 7040032624766790764}
   crouchingFirepoint: {fileID: 7040032625100691475}
+  aimingUpFirepoint: {fileID: 4461430718943663979}
   bulletPrefab: {fileID: 8777156553557725722, guid: 1676fdaa5dc422543980e2d27a5551f8,
     type: 3}
   isCrouching: 0
+  isAimingUp: 0
+  pew: {fileID: 0}
 --- !u!50 &7040032624651737320
 Rigidbody2D:
   serializedVersion: 4
